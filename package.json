@@ -1,0 +1,28 @@
+{
+  "name": "react-nytsearch",
+  "version": "1.0.0",
+  "description": "New York Times search with MERN",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodriguez32/React-NYTSearch.git"
+  },
+  "author": "Ilda Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rodriguez32/React-NYTSearch/issues"
+  },
+  "homepage": "https://github.com/Rodriguez32/React-NYTSearch#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.6",
+    "path": "^0.12.7"
+  }
+}
