@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+const routes = require('./routes');
 
 
 const app = express();
@@ -10,6 +11,9 @@ app.use(bodyParser.json());
 
 // DB config
 const db = require('./config/keys').mongoURI;
+
+// Add routes, both api and view
+app.use(routes);
 
 
 //Connect to the Mongo DB
